@@ -1,0 +1,179 @@
+a svg:hover #logo{
+	fill: #e84d49;
+}
+
+#sk-hero header h2 {
+	font-size:2em;
+	line-height: 1.2em
+}
+
+#sk-hero header h2 span{
+	font-size:2em;
+	text-align: right;
+	line-height: 1em;
+}
+
+#sk-hero header p{
+	margin-top: -10px;
+	text-align: right;
+}
+
+#sk-fade-text{
+	font-color: #343434;
+	background: linear-gradient(90deg, #343434, rgba(83,83,83,0.15));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.social-link{
+	margin: 15px 0px;
+	display: inline-block;
+}
+
+.social-link a, .resume-line a{
+	color: darkred;
+	text-decoration: none;
+}
+
+.social-link a:visited, .resume-line a:visited{
+	text-decoration: none;
+}
+
+.social-link a:hover, .resume-line a:hover{
+	color: #e84d49;
+	text-decoration: none;
+}
+
+.social-link a:active, .resume-line a:hover{
+	text-decoration: none;
+}
+
+.social-link a i{
+	text-align: right;
+	vertical-align: middle;
+}
+
+.social-link p{
+	line-height: 2em;
+	text-align: left;
+	display: inline;
+	font-size: 1.5em;
+}
+
+figcaption h2{
+/*	text-shadow: 0px 0px 15px #660000;*/
+	width: 100%;
+	padding: 1% 0;
+	background-color: rgba(0,0,0,0.2);
+/*
+   text-shadow:
+		-1px -1px 0 #777777,  
+		1px -1px 0 #777777,
+		-1px 1px 0 #777777,
+		1px 1px 0 #777777,
+		2px 2px 0 #bbb;
+*/
+}
+
+#section-title{
+	font-size: 20px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+#section-subtitle{
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.long-bold{
+	background-color: rgba(0,0,0,0.2);
+	height: 1px;
+	width:100%;
+}
+
+.short-bold{
+	background-color: rgba(0,0,0,0.2);
+	height: 1px;
+	width:80%;
+	margin-left:auto;
+	margin-right: auto;
+}
+
+#myself{
+	max-height: 600px;
+	float: right;
+	margin-top: -200px;
+}
+
+.btm-margin{
+	margin-bottom: 25px;
+}
+
+.conclusion-div{
+	padding-bottom:50%;
+}
+
+@media (min-width: 768px){
+	#myself{
+		margin-top: 130px;
+	}
+	.conclusion-div{
+		padding-bottom:0px;
+	}
+}
+
+@media (min-width: 992px){
+
+	#sk-hero header h2 {
+		font-size:2em;
+		line-height: 2em;
+	}
+	#sk-hero header h2 span{
+		font-size:2.5em;
+		text-align: right;
+		line-height: 1em;
+	}
+	a svg {
+		width: 70px;
+		height: 70px;
+	}
+	#myself{
+		margin-top: 0px;
+	}
+	
+	.social-list{
+		margin-top: 12%;
+	}
+	
+	.minimal-margins{
+		margin-left: -60px;
+		margin-right: -60px;
+	}
+	
+	.work-text{
+		margin-left: 3%;
+		margin-right: 3%;
+		text-align: left;
+	}
+	
+	#section-title{
+		font-size: 28px;
+	}
+	
+	#section-subtitle{
+		font-size: 22px;
+	}
+	
+	.center-big-img{
+		width:70%; 
+		margin-left:auto; 
+		margin-right:auto;
+	}
+	#myself{
+		max-height: 800px;
+		float: right;
+		margin-top: -40px;
+	}
+
+}
