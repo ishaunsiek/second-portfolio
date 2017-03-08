@@ -114,6 +114,11 @@ figcaption h2{
 #sk-fade-text{
 	font-color: #343434;
 }
+
+.work-text{
+	text-align: left;
+}
+
 @media (min-width: 768px){
 	#myself{
 		margin-top: 130px;
@@ -163,7 +168,6 @@ figcaption h2{
 	.work-text{
 		margin-left: 3%;
 		margin-right: 3%;
-		text-align: left;
 	}
 	
 	#section-title{
