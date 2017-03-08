@@ -2,6 +2,10 @@ a svg:hover #logo{
 	fill: #e84d49;
 }
 
+#sk-hero header h2 span:not(.s-intro){
+	text-align: left;
+}
+
 #sk-hero header h2 {
 	font-size:2em;
 	line-height: 1.2em
@@ -123,6 +127,9 @@ figcaption h2{
 		background: linear-gradient(90deg, #343434, rgba(83,83,83,0.15));
 		-webkit-background-clip: text;
 		-webkit-text-fill-color: transparent;
+	}
+	#sk-hero header h2 span:not(.s-intro){
+		text-align: right;
 	}
 }
 
