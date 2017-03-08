@@ -114,8 +114,7 @@ figcaption h2{
 #sk-fade-text{
 	font-color: #343434;
 }
-
-.img-responsive{
+#project-thumbnail{
 	width:100%;
 }
 @media (min-width: 768px){
