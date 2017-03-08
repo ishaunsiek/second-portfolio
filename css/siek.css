@@ -115,6 +115,9 @@ figcaption h2{
 	font-color: #343434;
 }
 
+.img-responsive{
+	width:100%;
+}
 @media (min-width: 768px){
 	#myself{
 		margin-top: 130px;
