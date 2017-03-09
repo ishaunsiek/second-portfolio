@@ -109,9 +109,14 @@ a svg:hover #logo{
 #myself{
 	max-height: 600px;
 	float: right;
-	margin-top: -200px;
+	margin-top: -250px;
 	z-index: -1;
 	position: relative;
+	margin-bottom: -75px;
+}
+
+.mobile-hr{
+	display: none;
 }
 
 .btm-margin{
@@ -141,7 +146,7 @@ a svg:hover #logo{
 	#myself{
 		display: none;
 	}
-	#about hr{
+	.mobile-hr{
 		display: block;
 	}
 	#sk-hero header{
