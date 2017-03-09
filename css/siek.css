@@ -88,6 +88,20 @@ a svg:hover #logo{
 	font-weight: 400;
 }
 
+#about{
+	background-image: url(/images/me.png);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: 90% 100%;
+	background-size: 220px;
+	text-shadow: 0px 0px 2px #f6f6f6, 0px 0px 7px #f6f6f6, 0px 0px 1px lightsalmon;
+	padding-right:20%;
+}
+
+#about hr{
+	display: none;
+}
+
 .long-bold{
 	background-color: rgba(0,0,0,0.2);
 	height: 1px;
@@ -125,6 +139,15 @@ a svg:hover #logo{
 }
 
 @media (min-width: 768px){
+	#about{
+		background-position: 90% 50%;
+		background-size: 350px;
+		text-shadow: none;
+		padding-right:0px;
+	}
+	#about hr{
+		display: block;
+	}
 	#sk-hero header{
 		padding-top:20%; 
 		padding-bottom:10%;
