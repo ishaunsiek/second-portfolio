@@ -61,11 +61,12 @@ a svg:hover #logo{
 	font-size: 1.5em;
 }
 
-figcaption h2{
+#thumb-title{
 /*	text-shadow: 0px 0px 15px #660000;*/
 	width: 100%;
 	padding: 1% 0;
-	background-color: rgba(0,0,0,0.2);
+	background-color: rgba(0,0,0,0.4);
+	margin-top:10%;
 /*
    text-shadow:
 		-1px -1px 0 #777777,  
