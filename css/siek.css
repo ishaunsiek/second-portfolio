@@ -109,10 +109,10 @@ a svg:hover #logo{
 #myself{
 	max-height: 600px;
 	float: right;
-	margin-top: -250px;
+	margin-top: -230px;
 	z-index: -1;
 	position: relative;
-	margin-bottom: -75px;
+	margin-bottom: -60px;
 }
 
 .mobile-hr{
