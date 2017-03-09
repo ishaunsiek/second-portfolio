@@ -223,3 +223,15 @@ a svg:hover #logo{
 	}
 
 }
+
+@media (min-width: 1400px){
+	#about{
+		background-position: 75% 60%;
+	}
+}
+
+@media (min-width: 1800px){
+	#about{
+		background-position: 70% 50%;
+	}
+}
