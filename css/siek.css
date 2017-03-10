@@ -129,11 +129,11 @@ a svg:hover #logo{
 
 #sk-fade-text{
 	font-color: #353535;
-	background: -moz-linear-gradient(0deg, #353535, rgba(52,52,52,0.15));
-	background: -ms-linear-gradient(0deg, #353535, rgba(52,52,52,0.15));
-	background: -webkit-linear-gradient(0deg, #353535, rgba(52,52,52,0.15));
-	background: -o-linear-gradient(0deg, #353535, rgba(52,52,52,0.15));
-	background: linear-gradient(90deg, #353535, rgba(83,83,83,0.85), rgba(52,52,52,0.15));
+	background: -moz-linear-gradient(0deg, #353535, rgba(52,52,52,0.12));
+	background: -ms-linear-gradient(0deg, #353535, rgba(52,52,52,0.12));
+	background: -webkit-linear-gradient(0deg, #353535, rgba(52,52,52,0.12));
+	background: -o-linear-gradient(0deg, #353535, rgba(52,52,52,0.12));
+	background: linear-gradient(90deg, #353535, rgba(83,83,83,0.8), rgba(52,52,52,0.12));
 	z-index: 1;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
