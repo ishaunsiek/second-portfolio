@@ -3,7 +3,7 @@ a svg:hover #logo{
 }
 
 #sk-hero header{
-	padding-top: 22%; 
+	padding-top: 30%; 
 	padding-bottom:10%;
 }
 
@@ -153,6 +153,10 @@ a svg:hover #logo{
 }
 
 @media (min-width: 768px){
+	#sk-hero header{
+		padding-top: 20%; 
+		padding-bottom:10%;
+	}
 	#about{
 		background-image: url(/images/me.png);
 		background-repeat: no-repeat;
