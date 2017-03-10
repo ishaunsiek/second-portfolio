@@ -148,7 +148,7 @@ a svg:hover #logo{
 }
 @media (max-width:767px) and (orientation:landscape){
 	#sk-hero header{
-		padding-top: 3%;
+		padding-top: 0;
 	}
 }
 
