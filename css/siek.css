@@ -3,9 +3,10 @@ a svg:hover #logo{
 }
 
 #sk-hero header{
-	padding-top:16%; 
-	padding-bottom:7%;
+	padding-top: 22%; 
+	padding-bottom:10%;
 }
+
 #sk-hero header h2 span:not(.s-intro){
 	text-align: left;
 }
@@ -145,6 +146,11 @@ a svg:hover #logo{
 .work-text{
 	text-align: left;
 }
+@media (max-width:767px) and (orientation:landscape){
+	#sk-hero header{
+		padding-top: 5%;
+	}
+}
 
 @media (min-width: 768px){
 	#about{
@@ -159,10 +165,6 @@ a svg:hover #logo{
 	}
 	.mobile-hr{
 		display: block;
-	}
-	#sk-hero header{
-		padding-top:20%; 
-		padding-bottom:10%;
 	}
 	#myself{
 		margin-top: 130px;
