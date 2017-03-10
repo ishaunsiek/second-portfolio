@@ -128,16 +128,18 @@ a svg:hover #logo{
 }
 
 #sk-fade-text{
-	font-color: #343434;
-	background: -moz-linear-gradient(90deg, #343434, rgba(83,83,83,0.15));
-	background: -ms-linear-gradient(90deg, #343434, rgba(83,83,83,0.15));
-	background: -webkit-linear-gradient(90deg, #343434, rgba(83,83,83,0.15));
-	background: -o-linear-gradient(90deg, #343434, rgba(83,83,83,0.15));
+	font-color: #353535;
+	background: -moz-linear-gradient(0deg, #353535, rgba(52,52,52,0.15));
+	background: -ms-linear-gradient(0deg, #353535, rgba(52,52,52,0.15));
+	background: -webkit-linear-gradient(0deg, #353535, rgba(52,52,52,0.15));
+	background: -o-linear-gradient(0deg, #353535, rgba(52,52,52,0.15));
+	background: linear-gradient(90deg, #353535, rgba(83,83,83,0.85), rgba(52,52,52,0.15));
 	z-index: 1;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	background-clip: text;
 	color: rgba(0,0,0,0);
+	display: inline-block;
 }
 
 .work-text{
@@ -167,18 +169,6 @@ a svg:hover #logo{
 	}
 	.conclusion-div{
 		padding-bottom:0px;
-	}
-	#sk-fade-text{
-		font-color: #343434;
-		background: -moz-linear-gradient(90deg, #343434, rgba(83,83,83,0.15));
-		background: -ms-linear-gradient(90deg, #343434, rgba(83,83,83,0.15));
-		background: -webkit-linear-gradient(90deg, #343434, rgba(83,83,83,0.15));
-		background: -o-linear-gradient(90deg, #343434, rgba(83,83,83,0.15));
-		z-index: 1;
-		-webkit-background-clip: text;
-		-webkit-text-fill-color: transparent;
-		background-clip: text;
-		color: rgba(0,0,0,0);
 	}
 	#sk-hero header h2 span:not(.s-intro){
 		text-align: right;
