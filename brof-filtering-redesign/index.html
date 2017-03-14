@@ -155,9 +155,11 @@
 <!--                                    <a href="#">Visit online <i class="fa fa-external-link" aria-hidden="true"></i></a>-->
 									<section>
 
-                                	<p>Business Review of the Future (BRoF) is a web app that doubles as a business analytics tool and a presentation (deck creation) tool for senior-level managers at Colgate-Palmolive.</p>
+                                	<p>Business Review of the Future (BRoF) is a business analytics web application that doubles as a presentation tool for senior-level managers at Colgate-Palmolive.</p>
 
-                                    <p>A month after working on the general layout of the application, I was brought back to help with the app's filtering interaction.</p>
+                                    <p>A month after working on the general user interface of the application*, I was brought back to improve the app's filtering interaction.</p>
+										
+									<p class="row" style="float:right; max-width:70%">* You can find my work with the general layout of BRoF <a href="/brof-ux-overhaul" style="display:block; text-decoration:none;">here</a>.</p>
 
                                     <p><strong>Role</strong><br/>
 
@@ -178,10 +180,8 @@
 
                         <div class="work-images grid">
 
-                            <ul class="grid-lod effect-2" id="grid" style="margin-bottom:20px;">
-
-                                <li><hr class="col-xs-12 long-bold"><img src="/images/work/brof-filtering/brof-filtering-before.jpg" alt="" class="img-responsive"/></li>
-								
+                            <ul class="grid-lod effect-2" id="grid" style="margin-bottom:20px;">								
+<!--
 								<li class="work-text">
 									<div>
 										<p id="section-title">Background</p>
@@ -189,28 +189,32 @@
 										<p style="float:right; max-width:70%">* You can find my work with the general layout of BRoF <a href="/brof-ux-overhaul" style="display:inline;">here</a>.</p>
 									</div>		
 								</li>
+-->
 								
 								<li class="work-text">
-									<hr class="short-bold">
+									<hr class="col-xs-12 long-bold">
+<!--									<hr class="short-bold">-->
 									<div>
 										<p id="section-title">Approach</p>
-										<p>I decided to approach this multifaceted problem chronologically. I drafted a simple filtering user flow and decided to solve problems as and when they crop up while a user attempts to filter their dashboard.</p>
+										<p>FIltering is an essential aspect of practically every analytics tool, and BRoF was no exception. </p>
+										<p>I decided upon a chronological approach to this task. I drafted a simple filtering user flow and solved the problems as and when they crop up while a user attempts to filter their dashboard.</p>
 									</div>
 								</li>
 								
-                                <li><img src="/images/work/brof-filtering/brof-filtering-flow.png" alt="" class="img-responsive"/></li>
+                                <li class="work-text"><img src="/images/work/brof-filtering/brof-filtering-flow.png" alt="" class="img-responsive"/></li>
 								
 								<li class="work-text">
 									<hr class="short-bold">
 									<p id="section-title">Problems &amp; Solution</p>
-									<img style="margin-bottom:20px;" src="/images/work/brof-filtering/brof-filter-visual-clutter.jpg" alt="" class="img-responsive"/></li>
+									<img style="margin-bottom:10px;" src="/images/work/brof-filtering/brof-filtering-before.jpg" alt="" class="img-responsive"/>	<img style="margin-bottom:20px;" src="/images/work/brof-filtering/brof-filter-visual-clutter.jpg" alt="" class="img-responsive"/>
+								</li>
 								
 								<li class="work-text">
 									<div>
 										<p id="section-subtitle">Visual clutter</p>
-										<p>There can be up to three filtering groups on any one screen: geography, product, and category. Initially, all groups are displayed on the menu bar. When the thought "I want to restrict this dataset" pops into the user's mind, they are immediately forced to think about which of the three groups they should click on; this introduces a mental burden very early on in the process.</p>
-										<p>Not only that, generating and populating the filtering modal takes some time, should a user click on the wrong group, they then have to exit, click, and load the modal for another group. This makes for a very expensive mistake.</p>
-										<p>The solution was to group them into a single filtering modal summonable by clicking on the filter icon. This delays the question by one click, and requires only one filtering modal to be generated and populated.</p>
+										<p>There can be up to three filtering groups on any one screen: geography, product, and category. Initially, all groups are displayed on the menu bar. If the user wants to filter their dashboard, they are immediately forced to think of which group their filter should fall under; this introduces a mental burden very early on in the process.</p>
+										<p>Not only that, generating and populating the filtering modal takes some time. Should a user click on the wrong group, they then have to exit, click, and load the modal for the correct group. This makes for a very costly mistake.</p>
+										<p>The solution was to group them into a tabbed row in a single filtering modal summonable via the filter icon on the right. This delays the mental burden by a click, and requires only one filtering modal to be generated and populated.</p>
 									</div>
 								</li>
 								
@@ -219,10 +223,10 @@
 								<li class="work-text">
 									<div>
 										<p id="section-subtitle">Singular column introduces memory load</p>
-										<p>The original design utilized a singular column. When an item is selected, for example 'Asia Pacific' here, it is moved to the top of the list, and everything else is italicized. This is to indicate that it is not related to the current item(s) selected. When going down one level, like sub-division here, items not under 'Asia Pacific' would also be italicized and greyed out.</p>
-										<p>It was a conscious design choice by the developers to implement only one list, citing user feedback for a simple interface, however this introduces a major issue. When the user selects an item, it is moved to the top without any indication. When the list is long and they are not at the top of the list, from their perspective, it seems to disappear suddenly.</p>
-										<p>Even should the user familiarize themself with this response, it requires that the user remembers what they have already selected. Also, selecting an item by mistake incurs a big cost. To unselect, the user would have to scroll all the way up where the selected sublist lives. Having to do this more than once would be a test of patience.</p>
-										<p>Hence, I proposed a two column interface. One mainly for selecting and providing a quick way to undo a selection, and the other to remind users of their current selection and to allow for easy removal of any item(s).</p>
+										<p>The original design utilized a singular column. When an item is selected, for example 'Asia Pacific' here, it is moved to the top of the list, and everything else is italicized. This is to indicate that it is not related to the current selected items.</p>
+										<p>It was a conscious design choice by the developers to implement only one list, citing user feedback for a simple interface, however this introduces a major issue. When the user selects an item, it is moved to the top without any indication. When they are further down on a long list, it seems to disappear abruptly from their perspective.</p>
+										<p>Even should users familiarize themselves with this response, it requires that the user remembers what they have already selected. Also, selecting an item by mistake incurs a substantial cost. To unselect, the user would have to scroll back up to locate the selected sublist. </p>
+										<p>Hence, I proposed a two column interface. One mainly for selecting and providing a quick way to undo a selection, and the other to remind users of their current selection and to allow for easy removal of any item.</p>
 									</div>
 								</li>
 								
@@ -233,16 +237,17 @@
 								<li class="work-text">
 									<div>
 										<p id="section-subtitle">Removing filters from the dashboard</p>
-										<p>Developers implemented a strip at the top of the dashboard that displays the current filters. I thought it was a nifty feature at first until I tried to use it and realized that there was a huge drawback: removing a filter item forces a reload of the entire dashboard.</p>
-										<p>Unfamiliar users would be swayed by the interface to think that this strip is the easiest way to remove existing filter items, however, attempting to remove more than one item from this strip will cause multiple reloads. Unless users are particularly interested in looking at how the dashboard changes when items x, y and z are selected over just items x and y, this does more harm than good.</p>
-										<p>Not only that, when more than a handful of items are selected, the list truncates with an ellipsis. This means that unless the filter item is at near the top of the filter list, users would still have to remove it through the appropriate filter modal. Hence, I advised the project team to remove this affordance. </p>
-										<p>In its stead, I proposed that the selection list be displayed in a tree structure in the new filtering modal. This is so that users could remove a group of items at once. For example, deleting the 'Asia Pacific' filter item also deletes 'South East Asia' from the filter.</p>
+										<p>Developers implemented a strip at the top of the dashboard that displays the current filters and affords users the ability to remove filters with a click. However, there was a huge drawback &mdash; removing a filter item forces a reload of the entire dashboard.</p>
+										<p>Unfamiliar users would be swayed by the interface to think that this strip is the easiest way to remove existing filter items. However, attempting to remove more than one item from this strip will cause multiple reloads. Unless users are particularly interested in conducting iterative analyses by removing a single filter item at a time, this does more harm than good.</p>
+										<p>Not only that, when more than a handful of filters are applied, the list truncates with an ellipsis. This means that unless the filter item is near the top of the filter list, users would still have to remove it through the appropriate filter modal. </p>
+										<p>As an alternative, I proposed that the selection list be displayed in a nested structure in the new filtering modal. This is so that a group of items could be removed simultaneously. For example, deleting the 'Asia Pacific' filter item also deletes 'South East Asia' from the filter. This also reduces clutter on the dashboard.</p>
 									</div>
 								</li>
 
                                 <li class="work-text">
 									<hr class="long-bold">
-									<p id="section-title">Conclusion</p><p>Working on the filtering flow has opened my eyes to the complexity of some usability problems. I thoroughly enjoyed the biweekly meetings where I had to defend my propositions agaisnt colleagues who were much more senior and knowledgeable than I am. It was intimidating at first, but it was during these "debates" that I realized UX is where I want to be.</p>
+									<p id="section-title">In summary</p>
+<!--									<p>Working on the filtering flow has opened my eyes to the complexity of some usability problems. I thoroughly enjoyed the biweekly meetings where I had to defend my propositions against colleagues who were much more senior and knowledgeable than I am. It was intimidating at first, but it was during these "debates" that I realized UX is where I want to be.</p>-->
 									<p>This chart summarizes the issues I found while breaking down the filtering interaction and my solutions to each of them:</p>
 									<img src="/images/work/brof-filtering/filtering-flow-problems.png" alt="" class="img-responsive conclusion-div"/></li>
 
