@@ -156,9 +156,9 @@
 									<section>
 
 										<p>
-											This was the last project I worked on during my internship at Colgate-Palmolive.
+											During the final week of my internship at Colgate-Palmolive, I had the opportunity to work on this product feedback mobile application which was scheduled to go into development in a month.
 										</p>
-										<p>This app does two things: remind testers to submit a response, and provide a mobile interface to curate their scheduled feedback.</p>
+										<p>It provides a mobile interface that reminds and allows testers to complete surveys for specific products and systematically curate their scheduled feedback.</p>
                                     <p><strong>Role</strong><br/>
 
 									UX Design, UI Design</p>
@@ -184,18 +184,16 @@
 								<li class="work-text">
 									<div>
 										<p id="section-title">Background</p>
-										<p>Right around Christmas 2016, my manager sat me down to brief me regarding the following week as he was going to be on leave. He mentioned about a new mobile app that will go into design and development at the end of January and asked if I could come up with the design for a few components. Seeing a chance for me to work on something no one has touched yet, I quickly accepted.</p>
-										<p>He told me that basically, people sign up to be testers of certain consumer products before and during release, and part of the terms was to provide their honest feedback periodically. However, this was still being done physically through survey forms that then have to be collected and entered into the system. This was obviously very inefficient and out-dated, so business wanted a mobile application.</p>
-										<p>He then provided me with a few of the survey forms currently being used and told me I had all the creative freedom.</p>
+										<p>People sign up to be testers of certain consumer products before and during release, and are asked to provide their honest feedback periodically. However, this was still being done manually through survey forms that then have to be collected and entered into the system. This is very inefficient and out-dated, so business was seeking a replacement with a mobile application.</p>
 									</div>		
 								</li>
 <!--He had also been looking at the feasibility of a few ways to implement indoor navigation. Due to the size of the facility, using beacons (location transmitters) turned out to be very costly and thus unjustifiable.-->
                                 <li class="work-text">
 									<hr class="short-bold">
 									<p id="section-title">Approach</p>
-									<p>I decided to tackle the most important part of this app first: the survey. After spending about a day looking at the survey forms and noted down the type of questions on each survey, their posible answers, and format of questioning, I noticed that they generally fall into one of four types: binary questions, scale-type questions, multiple-choice questions, and open ended questions. Most questions also accepted 'Not Applicable' as a response.</p>
-									<p>Binary questions are simple questions with two answers at opposite extremes. Scale-type questions are like binary questions, with more intermediate options (normally around 7-10 in total) between the two extremes. Multiple-choice questions are questions with multiple options for responses that do not  lie on a spectrum. Finally, open-ended questions provided a space for the tester to freely write their thoughts. Scale-type questions appear substantially more frequently than the others.</p>
-									<p>As there were almost no contraints and I clearly understood the problem at hand, so I decided to start my research by looking at similar mobile survey apps such as SurveyMonkey, OpinionMeter, LoopSurvey, and even Google Forms. I took note of elements from each app that I was convinced will serve the app well.</p>
+									<p>I decided to tackle the most important part of this app first: the survey. After sifting through the survey forms, I noticed that questions generally fall into one of four types: binary questions, scale-type questions, multiple-choice questions, and open ended questions. Most questions also accepted 'Not Applicable' as a response.</p>
+									<p>Binary questions are simple questions with two answers at opposite extremes. Scale-type questions are like binary questions, but with an additional 5-7 intermediate options between the extremes; they also occur substantially more often than the others. Multiple-choice questions are questions with multiple options for responses that do not  lie on a spectrum. Open-ended questions allow testers to freely express their thoughts.</p>
+									<p>I decided to start my research by looking at similar mobile survey apps such as SurveyMonkey, OpinionMeter, LoopSurvey, and Google Forms, and took note of elements that would bolster the usabilty of this application.</p>
 								</li>
 								<li class="work-text">
 									<hr class="short-bold">
@@ -211,7 +209,7 @@
 										<img src="/images/work/product-feedback/product-feedback-scale.jpg" alt="" class="img-responsive col-md-8 col-md-offset-2"/>
 									</div>
 									<p id="section-subtitle">Scale-type questions</p>
-									<p>It was challenging coming up with a design for these type of questions mainly because for each quetion, there are about 7-10 options, and the labels for their options can be rather long. In the end, I decided to go with a sliding Likert scale and a label under it.</p>
+									<p>It was challenging coming up with a design for these type of questions mainly because for each question, there are about 7-10 options and the labels for their options can be rather long. In the end, I decided to go with a sliding Likert scale and place a label under it.</p>
 								</li>
 								<li class="work-text">
 									<div class="col-sm-12 btm-margin">
@@ -221,14 +219,14 @@
 										<img src="/images/work/product-feedback/product-feedback-multi-radio.jpg" alt="" class="img-responsive col-md-8 col-md-offset-2"/>
 									</div>
 									<p id="section-subtitle">Multiple-choice questions</p>
-									<p>There are two types of multiple-choice questions, one that allows multiple-selection and one that doesn't. I decided not to reinvent the wheel and stick to the familiar standard of radio buttons and checkboxes.</p>
+									<p>There are two types of multiple-choice questions, one that allows multiple-selection and one that doesn't. I decided not to reinvent the wheel and stick to the familiar standard of checkboxes and radio buttons.</p>
 								</li>
 								<li class="work-text">
 									<div class="col-sm-12 btm-margin">
 										<img src="/images/work/product-feedback/product-feedback-openended.jpg" alt="" class="img-responsive col-md-8 col-md-offset-2"/>
 									</div>
 									<p id="section-subtitle">Open-ended questions</p>
-									<p>There wasn't much to innovate regarding the open-ended questions. A simple text input area with a standard cursor to indicate it's function suffices.</p>
+									<p>There wasn't much to innovate regarding the open-ended questions. A simple text input area with a standard cursor to indicate its function suffices.</p>
 								</li>
 								<li class="work-text">
 									<div class="col-sm-12 btm-margin">
@@ -241,8 +239,8 @@
 									</div>
 									<p id="section-subtitle">For the N/A case</p>
 									<p>The 'Not Applicable' response is slightly different than all the other responses. It doesn't quite fit on a scale, and I didn't think it should warrant it's own radio button.</p>
-									<p>After a night of pondering, I came to thinking that gestures might be the answer (no pun intended). After all, this was meant to be a smart phone app. So I decided swiping from right to left will grey out the question, and a label was added on the bottom to clarify its state. A grey 'N/A?' button was added to the bottom right so users can tap to grey out the question too.</p>
-									<p>Hopefully, by putting the N/A option outside the flow of the regular options, we can reduce the frequency of testers satisficing,, thus providing better feedback. If a tester needs to answer 'Not Applicable' to many questions on a survey, it's clear that they are either not suited for the test product, or more appropriate questions should be asked.</p>
+									<p>I came to thinking that gestures might be the answer (no pun intended). After all, this was meant to be a smart phone app. So I decided swiping from the right right edge of the screen will grey out the question, and a label was added on the bottom to clarify its state. A grey 'N/A?' button was added to the bottom right so users can tap to grey out the question too.</p>
+									<p>Hopefully, by putting the N/A option outside the flow of the regular options, we can reduce the frequency of testers satisficing, thus providing a more honest feedback. If a tester needs to answer 'Not Applicable' to many questions on a survey, it's clear that they are either not suited for the test product, or more appropriate questions should be asked.</p>
 								</li>
 								<li class="work-text">
 									<div class="col-sm-12 btm-margin">
@@ -271,13 +269,14 @@
 										<img src="/images/work/product-feedback/product-feedback-due-notification.gif" alt="" class="img-responsive col-md-10 col-md-offset-1"/>
 									</div>
 									<p id="section-subtitle">Late response notification</p>
-									<p>As feedback are requested on a schedule, users should be notified when they should take it or when its past due. To do this, the survey item's border changes from <span style="color:green">green (good time to complete)</span>, to <span style="color:darkorange">orange (recently due)</span>, and lastly to <span style="color:crimson">red (very late)</span>.</p>
+									<p>As feedback are requested on a schedule, users should be notified when they should take it or when its past due. To indicate this, a small circle is placed on the top right of the survey item and it changes from <span style="color:green">green (due today)</span>, to <span style="color:darkorange">orange (recently due)</span>, and lastly to <span style="color:crimson">red (very late)</span>.</p>
 								</li>
 								<li class="work-text">
 									<hr class="long-bold">
 									<div class="conclusion-div">
 										<p id="section-title">What do you think?</p>
-										<p>This was a fun little way to end my internship at Colgate, mainly because business and technology restrictions were not defined yet and I so I had all the freedom to come up with relevant designs. This ended up being a challenge for me to design the ideal survey app for a packaged product company like Colgate-Palmolive.</p>
+										<p>Beyond the scope of my task, I envision this app would provide an efficient interface for product research teams to create and publish their surveys and for testers to pull surveys and provide feedback periodically.</p>
+										<p>For a packaged-product company like Colgate-Palmolive, this app would drastically reduce processing time for curating feedback. Not only that, more interactive and logic-based surveys could be conducted and targeted at appropriate audiences. Better and more timely submitted feedback would be of great value to product development teams and thus boost the overall employee productivity and the quality of consumer products.</p>
 									</div>		
 								</li>
 
