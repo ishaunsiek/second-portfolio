@@ -165,7 +165,11 @@ a svg:hover #logo{
 	text-shadow: 1px 1px 1px gold;
 }
 
-:not(figure) .img-responsive{
+figure .img-responsive{
+	z-index: 0;
+}
+
+.img-responsive{
 	z-index: 10;
 }
 
