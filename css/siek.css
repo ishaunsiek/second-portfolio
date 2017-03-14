@@ -165,14 +165,6 @@ a svg:hover #logo{
 	text-shadow: 1px 1px 1px gold;
 }
 
-figure .img-responsive{
-	z-index: 0;
-}
-
-.img-responsive{
-	z-index: 10;
-}
-
 @media (max-width:767px) and (orientation:landscape){
 	#sk-hero header{
 		padding-top: 0;
