@@ -32,6 +32,10 @@ a svg:hover #logo{
 	display: inline-block;
 }
 
+.resume-line{
+	margin-left:-15px;
+}
+
 .social-link a, .resume-line a{
 	color: darkred;
 	text-decoration: none;
@@ -150,6 +154,14 @@ a svg:hover #logo{
 #plain-link{
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 100;
+}
+
+#view-more{
+	font-size: 1.5em;
+	font-weight: 200;
+	margin-top: 7%;
+	vertical-align: middle;
+	text-transform: uppercase;
 }
 
 @media (max-width:767px) and (orientation:landscape){
